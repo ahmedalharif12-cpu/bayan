@@ -1,0 +1,21 @@
+{
+  "name": "بيان | مترجم فوري بين أكثر من 100 لغة",
+  "short_name": "بيان",
+  "description": "بيان هو مترجم فوري وأنيق يدعم أكثر من 100 لغة عالمية بترجمة دقيقة وسريعة.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "lang": "ar",
+  "dir": "rtl",
+  "background_color": "#0b2422",
+  "theme_color": "#0b2422",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="75%">
+      <stop offset="0%" stop-color="#1c4a46"/>
+      <stop offset="100%" stop-color="#0b2422"/>
+    </radialGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0d78c"/>
+      <stop offset="100%" stop-color="#caa23a"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="100" cy="100" r="98" fill="url(#bg)"/>
+  <circle cx="100" cy="100" r="92" fill="none" stroke="url(#goldGrad)" stroke-width="2" opacity="0.6"/>
+
+  <!-- 8-point star (rub el hizb) -->
+  <g transform="translate(20,20) scale(1.6)" opacity="0.55">
+    <path d="M50,2 L57.65,31.52 L83.94,16.06 L68.48,42.35 L98,50 L68.48,57.65 L83.94,83.94 L57.65,68.48 L50,98 L42.35,68.48 L16.06,83.94 L31.52,57.65 L2,50 L31.52,42.35 L16.06,16.06 L42.35,31.52 Z"
+          fill="none" stroke="url(#goldGrad)" stroke-width="1.5"/>
+  </g>
+
+  <!-- Arabic letter ب (Baa) -->
+  <text x="100" y="138" text-anchor="middle" font-family="Aref Ruqaa, serif" font-size="92" fill="url(#goldGrad)">ب</text>
+</svg>
